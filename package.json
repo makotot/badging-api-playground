@@ -1,0 +1,21 @@
+{
+  "name": "badging-api-playground",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "webpack-dev-server --key ./localhost+2-key.pem --cert ./localhost+2.pem",
+    "build": "webpack"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:makotot/badging-api-playground.git",
+  "author": "makotot <makoto.ttn@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.3",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.32.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1",
+    "workbox-webpack-plugin": "^4.3.1"
+  }
+}
